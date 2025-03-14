@@ -1,0 +1,172 @@
+body {
+  background-image: linear-gradient(rgb(30, 30, 30), black);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  padding-top: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers horizontally */
+  justify-content: center; /* Centers vertically */
+  height: 100vh;
+}
+
+.header img {
+  margin-top: 100px;
+  width: 150px;
+  margin-bottom: 20px; /* Spacing below image */
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #e6e6e6; /* Light gray text */
+  margin-top: 5px;
+  max-width: 600px;
+}
+p {
+  font-size: 16px;
+  color: rgb(110, 110, 115);
+  max-width: 600px;
+  margin-top: 10px;
+}
+
+.section1 {
+  text-align: center;
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  margin-bottom: 100px;
+}
+.skills {
+  padding-top: 20px;
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading2 {
+  font-size: 36px;
+  color: #121212;
+  font-weight: bold;
+}
+
+.p1 {
+  color: rgb(110, 110, 115);
+}
+/* Container for the 3 columns (Java, JavaScript, HTML) */
+.services-section {
+  display: flex; /* Lay out columns side-by-side */
+  justify-content: space-between;
+  align-items: flex-start; /* Top-align the items */
+  margin: 50px auto; /* Center the whole section horizontally */
+  max-width: 1000px; /* Limit width for a neat layout */
+  padding: 0 20px; /* Optional horizontal padding */
+}
+
+/* Each individual column */
+.service {
+  flex: 1; /* Make columns equal width */
+  margin: 0 10px; /* Spacing between columns */
+}
+
+/* Heading style: "Public Sans," size ~31px, bold, dark text */
+.service h2 {
+  color: rgb(29, 29, 31);
+  display: block;
+  font-family: "Public Sans", "Public Sans Placeholder", sans-serif;
+  font-size: 31px; /* Similar to the second pic */
+  font-weight: 600; /* Semi-bold */
+  line-height: 40px; /* Spacing between lines */
+  letter-spacing: -1.24px; /* Slightly tighter spacing */
+  margin: 0 0 10px; /* Space below heading */
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-color: rgb(29, 29, 31);
+  -webkit-text-stroke-width: 0;
+}
+
+/* Paragraph style (optional) */
+.service p {
+  color: #444; /* Dark gray text */
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 20px; /* Spacing below paragraphs */
+}
+.form-container {
+  max-width: 600px;
+  margin: 10px auto 90px auto;
+  padding: 20px;
+  background: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  padding-right: 50px;
+  margin-bottom: 90px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  background-color: #262626;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #5a9;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  background-color: #1e5631;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #167d46;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Project Web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/IMG_1751.png" class="img" alt="Profile" />
+      <h1>I'm Feliks.</h1>
+      <h2>Software Developement Student.</h2>
+      <p>
+        Third-year Software Development student at the Estonian Entrepreneurship
+        University of Applied Sciences. Ready to work for food.
+      </p>
+    </div>
+    <section class="section1">
+      <div class="skills">
+        <h2 class="heading2">Programing skills.</h2>
+        <p class="p1">
+          Through out my learning i have worked with many different languages.
+          Mostly iv been working with Java and JavaScript. Here i will provide
+          additional information about my experience.
+        </p>
+      </div>
+      <div class="services-section">
+        <div class="service">
+          <h2>Java</h2>
+          <p>
+            Java is the first language I learned. I have been working with Java
+            for a year. I have created different projects using Maven and Spring
+            Boot.
+          </p>
+        </div>
+        <div class="service">
+          <h2>HTML, CSS, PHP</h2>
+          <p>
+            These are the second languages I learned. I have been working with
+            all of them to JavaScript to create personal websites and for my
+            friends as well.
+          </p>
+        </div>
+        <div class="service">
+          <h2>Databases</h2>
+          <p>
+            MySQL, PostgeSQL, SQLite - theese are all databases which i used
+            along with my projects. As well i tryed Docer to conterize some of
+            my projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="form-container">
+      <h2>Contact Me</h2>
+
+      <form action="infotodb.php" method="post">
+        <input type="text" id="name" name="name" placeholder="Name" required />
+
+        <input type="text" id="cname" name="cname" placeholder="Company Name" />
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="E-Mail"
+          required
+        />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Message"
+          rows="5"
+          required
+        ></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
