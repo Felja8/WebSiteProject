@@ -13,8 +13,8 @@ Basic portfolio website. Build on HTML, CSS, PHP, XAMPP.
 2. PHP as a backend to execute scripts
 3. CSS as a UI design 
 
-## 🔧 Installation
-``` Coming soon to web
+## 🔧 Access
+``` [Link text](https://felja8.github.io/WebSiteProject/)
 # Clone the repository
 git clone https://github.com/your-repo-name.git
 
