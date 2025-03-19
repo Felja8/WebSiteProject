@@ -14,4 +14,4 @@ Basic portfolio website. Build on HTML, CSS, PHP, XAMPP.
 3. CSS as a UI design 
 
 ## 🔧 Access
-``` [Link text](https://felja8.github.io/WebSiteProject/)
+[Visit a web-page](https://felja8.github.io/WebSiteProject/)
