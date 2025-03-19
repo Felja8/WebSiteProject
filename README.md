@@ -15,11 +15,3 @@ Basic portfolio website. Build on HTML, CSS, PHP, XAMPP.
 
 ## 🔧 Access
 ``` [Link text](https://felja8.github.io/WebSiteProject/)
-# Clone the repository
-git clone https://github.com/your-repo-name.git
-
-# Navigate to the project folder
-cd your-repo-name
-
-# Install dependencies
-npm install
